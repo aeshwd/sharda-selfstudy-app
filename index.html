@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Sharda SelfStudy — Mobile App</title>
+    <title>Sharda SelfStudy — App Portal</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,7 +28,7 @@
 
     <!-- 2. AUTHENTICATION CONTAINER -->
     <div id="auth-view" class="view-container hidden">
-        <div class="auth-card app-card-style">
+        <div class="auth-card">
             <div class="auth-header">
                 <span class="logo-sm">S²</span>
                 <h2>Sharda SelfStudy</h2>
@@ -83,10 +83,10 @@
         </div>
     </div>
 
-    <!-- 3. APP INTERFACE CONTAINER -->
+    <!-- 3. APP SHELL CONTAINER -->
     <div id="app-view" class="app-layout hidden">
         
-        <!-- App Header Bar -->
+        <!-- App Top Header Bar -->
         <header class="app-topbar">
             <div class="app-header-left">
                 <div id="topbar-avatar" class="avatar-placeholder sm">SS</div>
@@ -98,12 +98,12 @@
             <button id="logout-btn-top" class="icon-btn" title="Logout">🚪</button>
         </header>
 
-        <!-- Main Screen Content Area -->
+        <!-- Dynamic Content Body -->
         <main class="app-content-body" id="dashboard-content">
-            <!-- Dynamic Views Render Here -->
+            <!-- Views render here -->
         </main>
 
-        <!-- App Bottom Navigation Bar (Mobile App Style) -->
+        <!-- App Bottom Navigation Bar -->
         <nav class="app-bottom-nav" id="bottom-nav-links">
             <!-- Dynamically populated based on role -->
         </nav>
